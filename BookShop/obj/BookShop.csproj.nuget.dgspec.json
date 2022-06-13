@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adsi\\Desktop\\Crud\\BookShop\\BookShop\\BookShop.csproj": {}
+    "C:\\Users\\mjhon\\OneDrive\\Escritorio\\BookShop\\BookShop\\BookShop\\BookShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adsi\\Desktop\\Crud\\BookShop\\BookShop\\BookShop.csproj": {
+    "C:\\Users\\mjhon\\OneDrive\\Escritorio\\BookShop\\BookShop\\BookShop\\BookShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adsi\\Desktop\\Crud\\BookShop\\BookShop\\BookShop.csproj",
+        "projectUniqueName": "C:\\Users\\mjhon\\OneDrive\\Escritorio\\BookShop\\BookShop\\BookShop\\BookShop.csproj",
         "projectName": "BookShop",
-        "projectPath": "C:\\Users\\adsi\\Desktop\\Crud\\BookShop\\BookShop\\BookShop.csproj",
-        "packagesPath": "C:\\Users\\adsi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adsi\\Desktop\\Crud\\BookShop\\BookShop\\obj\\",
+        "projectPath": "C:\\Users\\mjhon\\OneDrive\\Escritorio\\BookShop\\BookShop\\BookShop\\BookShop.csproj",
+        "packagesPath": "C:\\Users\\mjhon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mjhon\\OneDrive\\Escritorio\\BookShop\\BookShop\\BookShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\adsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mjhon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,9 +40,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
             }
           },
           "imports": [
@@ -55,12 +63,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.16, 5.0.16]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -69,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
