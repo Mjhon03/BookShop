@@ -24,11 +24,11 @@ namespace BookShop.Controllers
 
         }
 
-        [HttpPost("/Buscador")]
-        public string Buscador([FromBody] Usuarios cliente)
+        [HttpGet("{id}")]
+        public string Get(int id)
         {
-            string sql = "";
-            DataTable table = db.getTable(sql);
+            string sql = "select id, nombres, apellidos, documento, correo, direccion, fechaNacimiento, librosEncargados from Cliente where id = " + id + " ";
+            var table = db.getTable(sql);
             var json = JsonConvert.SerializeObject(table);
             return json;
         }

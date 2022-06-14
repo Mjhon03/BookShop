@@ -30,7 +30,10 @@ namespace BookShop.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "value";
+            string sql = "select * from Libro where idLibro = "+id+"";
+            DataTable table = db.getTable(sql);
+            string json = JsonConvert.SerializeObject(table);
+            return json;
         }
 
         
