@@ -32,6 +32,9 @@ namespace BookShop
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "BookShop", Version = "v1" });
             });
+            services.AddCors();
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,6 +50,12 @@ namespace BookShop
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors(x => x
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                .SetIsOriginAllowed(origin => true) // Allow any origin
+                .AllowCredentials());
 
             app.UseAuthorization();
 
