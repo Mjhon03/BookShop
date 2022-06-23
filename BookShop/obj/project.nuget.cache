@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rq27uN4eV/55YbOqAZNHiS3ChF0vvY69svaLrUH1IxNJ6QPNz7+WZs/zqu5oulXfkoPMy8Bgv5FeB/fcPnzaQw==",
+  "dgSpecHash": "ZcRKPZ6jjkxjtW2m7zHdiSEqtAlshhvXwTmbd3agc/6b4AQsRslyAzscZAAqWg5H7Yp94Py8ujrrYLxGNC3F6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mjhon\\OneDrive\\Escritorio\\BookShop\\BookShop\\BookShop\\BookShop.csproj",
+  "projectFilePath": "C:\\Users\\mjhon\\OneDrive\\Escritorio\\BookShop Back\\BookShop\\BookShop\\BookShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mjhon\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\mjhon\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

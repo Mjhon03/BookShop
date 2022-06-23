@@ -45,7 +45,7 @@ namespace BookShop.Controllers
         [HttpPut("{id}")]
         public string Put(int id, [FromBody] Usuarios cliente)
         {
-            string sql = "update cliente set nombres = '"+cliente.nombres+"', apellidos = '"+cliente.apellidos+"', documento = '"+cliente.documento+"', correo = '"+cliente.documento+"', contrasenna = '"+cliente.contrasenna+"', direccion = '"+cliente.direccion+"', fechaNacimiento = '"+cliente.fechaNacimento+"' where id = '"+id+"'";
+            string sql = "update cliente set nombres = '"+cliente.nombres+"', apellidos = '"+cliente.apellidos+"', documento = '"+cliente.documento+"', correo = '"+cliente.correo+"', contrasenna = '"+cliente.contrasenna+"', direccion = '"+cliente.direccion+"', fechaNacimiento = '"+cliente.fechaNacimento+"' where id = '"+id+"'";
             return db.executeSql(sql);
         }
 

@@ -678,11 +678,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mjhon\\OneDrive\\Escritorio\\BookShop\\BookShop\\BookShop\\BookShop.csproj",
+      "projectUniqueName": "C:\\Users\\mjhon\\OneDrive\\Escritorio\\BookShop Back\\BookShop\\BookShop\\BookShop.csproj",
       "projectName": "BookShop",
-      "projectPath": "C:\\Users\\mjhon\\OneDrive\\Escritorio\\BookShop\\BookShop\\BookShop\\BookShop.csproj",
+      "projectPath": "C:\\Users\\mjhon\\OneDrive\\Escritorio\\BookShop Back\\BookShop\\BookShop\\BookShop.csproj",
       "packagesPath": "C:\\Users\\mjhon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mjhon\\OneDrive\\Escritorio\\BookShop\\BookShop\\BookShop\\obj\\",
+      "outputPath": "C:\\Users\\mjhon\\OneDrive\\Escritorio\\BookShop Back\\BookShop\\BookShop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mjhon\\AppData\\Roaming\\NuGet\\NuGet.Config",
